@@ -17,7 +17,7 @@
 packages:
   # The ESP32-P4, its memory, the ESP32-C6 for Wi-Fi, the touch bus and the backlight's pin, shared with the 10.1-inch
   # and the 7-inch Guition.
-  hardware: !include ../hardware/guition-esp32p4.yaml
+  hardware: !include ../hardware/guition-jc4880p443.yaml
   look: !include ../looks/standard.yaml
   touch: !include ../features/capacitive-touch.yaml
   backlight: !include ../features/backlight.yaml
@@ -85,12 +85,3 @@ display:
     model: JC4880P443
     update_interval: never
     auto_clear_enabled: false
-
-# ESPHome's own gt911 platform; the GT911 reports the panel's own pixels, so the transform stays the core's. The
-# community configurations for this board name no reset or interrupt pin for it.
-touchscreen:
-  - platform: gt911
-    id: ts_touch
-    i2c_id: touch_bus
-    display: my_display
-    update_interval: 20ms

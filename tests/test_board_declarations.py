@@ -47,7 +47,7 @@ STILL_HELD = {
     'interval': ('reterminald1001',),
     'light': ('guition-jc8048w550c-i', 'waveshare-esp32s3-4b',),
     'logger': (
-        'guition-4848s040', 'guition-jc8048w550c-i', 'reterminald1001', 'seeed-sensecap-indicator-d1',
+        'guition-4848s040', 'guition-jc4880p443-v3', 'guition-jc8048w550c-i', 'reterminald1001', 'seeed-sensecap-indicator-d1',
         'sunton-8048s070', 'waveshare-esp32s3-4b', 'waveshare-esp32s3-4v4', 'waveshare-esp32s3-7b', 'waveshare43c',
         'wavesharep47b',
     ),
@@ -89,7 +89,7 @@ STILL_HELD = {
     ),
     'touchscreen': (
         'crowpanel101', 'cyd-2432s028', 'freenove-fnk0104s', 'guition-4848s040', 'guition-jc3248w535',
-        'guition-jc4880p443', 'guition-jc4880p443-v3', 'guition-jc8012p4a1', 'guition-jc8048w550c-i', 'hosyond40',
+        'guition-jc8012p4a1', 'guition-jc8048w550c-i', 'hosyond40',
         'reterminald1001',
         'seeed-sensecap-indicator-d1', 'sunton-8048s070', 'tab5', 'waveshare-esp32s3-35', 'waveshare-esp32s3-4b',
         'waveshare-esp32s3-4v4', 'waveshare101', 'wavesharep4', 'wavesharep47', 'wavesharep47b', 'wt32sc01plus',
